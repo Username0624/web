@@ -1,0 +1,140 @@
+/* App.css */
+
+/* 设置整个应用的背景颜色和字体 */
+body {
+  background-color: #faf8ef;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 游戏容器样式 */
+.game2048 {
+  width: 450px; /* 根据需要调整 */
+  margin: 50px auto; /* 居中显示 */
+  text-align: center;
+}
+
+/* 棋盘样式 */
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbada0; /* 背景色与2048经典风格类似 */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* 棋盘每一行的样式 */
+.board-row {
+  display: flex;
+}
+
+/* 每个方块的默认样式 */
+.board-cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px; /* 调整字体大小 */
+  color: #776e65; /* 默认的文字颜色 */
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #cdc1b4; /* 默认背景颜色 */
+}
+
+/* 数值方块的背景颜色及文字颜色 */
+/* 2 */
+.tile-2 {
+  background-color: #eee4da;
+  color: #776e65;
+}
+
+/* 4 */
+.tile-4 {
+  background-color: #ede0c8;
+  color: #776e65;
+}
+
+/* 8 */
+.tile-8 {
+  background-color: #f2b179;
+  color: white;
+}
+
+/* 16 */
+.tile-16 {
+  background-color: #f59563;
+  color: white;
+}
+
+/* 32 */
+.tile-32 {
+  background-color: #f67c5f;
+  color: white;
+}
+
+/* 64 */
+.tile-64 {
+  background-color: #f65e3b;
+  color: white;
+}
+
+/* 128 */
+.tile-128 {
+  background-color: #edcf72;
+  color: white;
+}
+
+/* 256 */
+.tile-256 {
+  background-color: #edcc61;
+  color: white;
+}
+
+/* 512 */
+.tile-512 {
+  background-color: #edc850;
+  color: white;
+}
+
+/* 1024 */
+.tile-1024 {
+  background-color: #edc53f;
+  color: white;
+}
+
+/* 2048 */
+.tile-2048 {
+  background-color: #edc22e;
+  color: white;
+}
+
+/* 游戏得分和游戏结束信息的样式 */
+h2 {
+  margin: 10px 0;
+  color: #776e65;
+}
+
+/* 重启按钮的样式 */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #8f7a66;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #b1a192; /* 鼠标悬停时的背景颜色 */
+}
