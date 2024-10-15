@@ -7,3 +7,4 @@
 
 ### 作業繳交
 [作業1 個人網站](https://username0624.github.io/web/bootstrap-cv-resume-template/bootstrap-cv-resume-template/)
+[作業2 網頁探索螢幕錄影](https://youtu.be/oc33yk2uaJs)
